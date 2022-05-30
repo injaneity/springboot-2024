@@ -2,6 +2,7 @@ package com.smu.workshop;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ShowTimeClock showTimeClock = new MyShowTimeClock();
+        System.out.println(showTimeClock.whatTimeIsIt());
     }
 }
